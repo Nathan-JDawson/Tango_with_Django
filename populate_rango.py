@@ -4,6 +4,9 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tango_with_django.settings')
 import django
 django.setup()
 
+import random
+random.seed
+
 from rango.models import Category, Page
 
 def populate():
