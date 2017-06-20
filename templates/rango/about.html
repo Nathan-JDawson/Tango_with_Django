@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+    <head>
+        <title>This is the About Page</title>
+    </head>
+
+    <body>
+        <h1>This is the About Page</h1>
+        About Page! <strong>{{ aboutmessage }}</strong>
+        <a href="/rango/">Index</a>
+        <img src="{% static 'images/beaver.jpg' %}" alt="Picture of a Beaver"/>
+    </body>
+</html>
