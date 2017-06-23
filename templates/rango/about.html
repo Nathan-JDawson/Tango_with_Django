@@ -7,8 +7,13 @@
 {% block title %}About{% endblock %}
 
 {% block body_block %}
-        <h1>This is the About Page</h1>
-        About Page! <strong>{{ aboutmessage }}</strong>
-        <img src="{% static 'images/beaver.jpg' %}" alt="Picture of a Beaver"/>
+    <div class="page-header">
+            <h1>About</h1>
+    </div>
+        <div>
+        <p></strong>.</p>
+
+        <img  width="90" height="100" src="{% static "images/llama.jpg" %}" alt="Picture of Llama" /> <!-- New line -->
+        </div>
 {% endblock %}
 </html>
